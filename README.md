@@ -1,15 +1,77 @@
 # React + TypeScript + Vite
-
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This appears to be a frontend-focused design system project based on the components and structure you've shared. Here's a detailed breakdown:
 
-Currently, two official plugins are available:
+Project Type: Frontend Design System
+Scope:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+>Building reusable UI components (Typography, Inputs, Feedback elements)
 
-## Expanding the ESLint configuration
+>Focused on presentation layer only
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+>No backend/server code shown in your files
+
+Tech Stack:
+
+>React + TypeScript (Component library)
+
+>Tailwind CSS (Styling)
+
+>Storybook (Component documentation)
+
+>Vite (Build tool)
+
+Key Characteristics:}
+
+Design System Features:
+
+>Typography system (Headings, Paragraphs, Labels)
+
+>Data Entry components (TextInput, Checkbox, etc.)
+
+>Feedback components (Toast, Modal, etc.)
+
+>Theming support (Light/Dark modes)
+
+>Comprehensive documentation via Storybook
+
+Potential Use Cases
+Enterprise Applications:
+
+>Consistent UI across large codebases
+
+>Standardized design for B2B SaaS products
+
+Product Teams:
+
+>Faster prototyping with pre-built components
+
+>Design-development handoff system
+
+Open Source Projects:
+
+>Shareable component library
+
+>Foundation for other projects
+
+Starter Kit:
+
+>Base for new React projects
+
+>Template for consistent UI development
+
+Even as frontend-only, this provides:
+>✅ Consistent UI across applications
+
+>✅ Faster development with pre-built components.
+
+>✅ Better accessibility out-of-the-box.
+
+>✅ Easier maintenance with centralized styling.
+
+>✅ Onboarding documentation via Storybook.
+
+
 
 ```js
 export default tseslint.config({
@@ -30,8 +92,6 @@ export default tseslint.config({
   },
 })
 ```
-
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
 
 ```js
 // eslint.config.js
